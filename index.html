@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar bg-pink">
+      <div class="container-fluid justify-content-around">
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand header-text" href="#">
+          <img src="./images/logo.png" alt="Logo" width="120" height="80" class="d-inline-block align-text-center" />
+          FURNITURE.UA
+        </a>
+        <div
+          class="d-flex justify-content-center position-relative"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <img src="./images/cart.png" class="img-color" alt="cart" width="60" height="60" /><span class="cart-count"
+            >0</span
+          >
+        </div>
+      </div>
+    </nav>
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">furniture collection</h1>
+        <a href="#products"><button class="banner-btn">shop now</button></a>
+      </div>
+    </header>
+    <section class="products">
+      <div class="section-title">
+        <h2>Our products</h2>
+      </div>
+      <div class="products-center" id="products">
+        <!-- product -->
+        <!-- <article class="product">
+          <div class="img-container">
+            <img src="./images/p1.jpg" alt="product" class="product-img" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>queen bed</h3>
+          <h4>$16</h4>
+        </article> -->
+
+        <!-- end of product -->
+      </div>
+    </section>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <!-- cart item -->
+        <!-- <div class="cart-item">
+          <img src="./images/p1.jpg" alt="product" />
+          <div>
+            <h4>queen bed</h4>
+            <h5>$9.00</h5>
+            <span class="remove-item">remove</span>
+          </div>
+          <div>
+            <div class="arrow arrow-top"></div>
+            <p class="item-amount">1</p>
+            <div class="arrow arrow-bottom"></div>
+          </div>
+        </div> -->
+        <!-- cart item -->
+      </div>
+      <div class="cart-footer">
+        <h3>your total : ₴<span class="cart-total">0</span></h3>
+        <button class="btn btn-warning btn-pink btn-clear">clear cart</button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

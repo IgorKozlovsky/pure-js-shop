@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "PROMO DESK 29-6G",
+      "price": 6288,
+      "image": "./images/p1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "PROMO DESK 29/101",
+      "price": 2566,
+      "image": "./images/p2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "PROMO CABINET 29/525M",
+      "price": 8075,
+      "image": "./images/p3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "PROMO CABINET 29-31",
+      "price": 15659,
+      "image": "./images/p4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "SOFA AMIGO 2 RICHMAN",
+      "price": 7717,
+      "image": "./images/p5.jpg"
+    },
+    {
+      "id": "6",
+      "title": "OPENAKUSTIK FLO ACOUSTIC SCREEN OUTDOOR",
+      "price": 4250,
+      "image": "./images/p6.jpg"
+    },
+    {
+      "id": "7",
+      "title": "SAFE CL III.50.C",
+      "price": 29390,
+      "image": "./images/p7.jpg"
+    },
+    {
+      "id": "8",
+      "title": "SAFE CL III.68.K.E LUX GOLD",
+      "price": 77963,
+      "image": "./images/p8.jpg"
+    },
+    {
+      "id": "9",
+      "title": "CHAIR ULTRA MESH CHROME",
+      "price": 3699,
+      "image": "./images/p9.jpg"
+    }
+  ]
+}
